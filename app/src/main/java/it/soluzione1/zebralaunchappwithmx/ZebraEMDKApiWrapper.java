@@ -359,6 +359,9 @@ public class ZebraEMDKApiWrapper extends Sdk implements EMDKManager.EMDKListener
             Log.d(TAG, "parseXml " + hasError + " " + errorString);
             // Per il reboot questo valore dovrebbe essere false
 
+            if(hasError)
+                Toast.makeText(MyCustomApplication.getAppContext(), errorString, Toast.LENGTH_LONG).show();
+
 
         } catch (Exception e) {
 
