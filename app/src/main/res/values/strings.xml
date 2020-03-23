@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZebraLaunchAppWithMx</string>
+    <string name="emdkmanager_request_failed">EMDK Manager init failed</string>
+    <string name="stringa_non_xml">Not XML</string>
+    <string name="launch_app">Launch app</string>
+    <string name="insert_application_name">Insert application name:</string>
+    <string name="sdk_not_initialized">SDK not initialized</string>
+    <string name="sdk_not_ready">SDK not ready</string>
+</resources>
